@@ -1,11 +1,16 @@
 {
   "name": "olio-slack",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "olio-slack",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naturalethic/olio-slack"
+  },
   "dependencies": {
     "co-request": "^0.2.1",
     "livescript": "git://github.com/gkz/livescript.git",
-    "olio": "git://github.com/naturalethic/olio.git",
     "sandbox": "^0.8.6",
+    "slack-node": "^0.1.3",
     "urlencode": "^1.0.0",
     "ws": "^0.7.1",
     "xregexp": "^2.0.0"
