@@ -6,6 +6,7 @@ if olio.config.slack?name
 
 module.exports = (next) ->*
   @slack = ->
+    return if olio.config.slack?disabled
     if olio.config.slack?name
       slack.webhook {
         username: olio.config.slack.name
